@@ -2,7 +2,9 @@
 Colors used:
 Primary Color (white): #000000;
 Secondary Color (Green): #4D4F43;
-*/
+*/* {
+    box-sizing: border-box;
+}
     body {
         background-color: #ffffff;
         font-family: 'Titillium Web', sans-serif;
@@ -48,7 +50,7 @@ Secondary Color (Green): #4D4F43;
         text-decoration: underline; 
       }
       a:active { 
-        color: #994c30;
+        color: #cd7934;
       }
       a:hover,
 a:focus {
@@ -79,3 +81,45 @@ a:focus {
   background-color: #ff7f50;
   color: #ffffff;
 }
+/* Layout styling */
+.container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 25px 0;
+  }
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+  .logo {
+    max-width: 250px;
+
+  }
+  header {
+    background-color: #d1d1d2;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.33);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.33);
+position: fixed;
+width: 100%;
+  }
+  main {
+    padding-top: 133px;
+  }
+  nav > ul > li {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block
+  }
+  nav > ul > li > a {
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+    #hero {
+        background-color: #d1d1d2;
+        padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+      }   
