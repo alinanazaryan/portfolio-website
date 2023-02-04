@@ -125,7 +125,15 @@ width: 100%;
         padding: 20px 0;
   display: inline-block;
   width: 100%;
-      } 
+text-align:center;
+    } 
+    #hero li {
+list-style: none;
+    }
+
+    #hero img{
+        width: 300px;
+    }
       /* ==============================
 Medium devices (640px and larger)
 ================================= */  
