@@ -15,14 +15,18 @@
     <body id="header">
         <header>
             <div class="container">
-                <img class="logo" src="img/mylogo.png" alt="mylogo" width="100">
+                <div class="navtoggle"  id="myNavtoggle">
+                <img class="logo" src="img/mylogo.png" alt="mylogo">
                 <nav>
                     <ul class="navigation">
                         <li><a href="index.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+
                     </ul>
                 </nav>
+                </div>
             </div>
         </header>
         <main>
@@ -30,11 +34,11 @@
                 <div class="container">
 					<h1>Hi, I am Alina</h1>
 					<picture>
-						<source srcset="img/mypic@1.jpg" media="(max-width:767px)">
-                        <img src="img/mypic@1.jpg" alt="Profile Picture" width="200">
+						<source srcset="img/mypic@1.png" media="(max-width:767px)">
+                        <img src="img/mypic@1.png" alt="Profile Picture" width="200">
 					</picture>
                     <h2>My Story</h2>
-                    <p>I’m a UI/UX designer currently based in the USA. With the background in interior design, I’m passionate about art and design and focused on creating aesthetically pleasing and functional products. My previous skills helped me to highlight user’s needs and wants and also be comfortable witch critique and changes.</p>
+                    <p>I’m a UI/UX designer currently based in the USA. With the background in interior design, I’m passionate about art and design and focused on creating aesthetically pleasing and functional products. My previous skills helped me to highlight user’s needs and wants and also be comfortable with critique and changes.</p>
                     <a href="files/resume.pdf" target="_blank">My Resume</a>
                     <div class="row">
                         <div class="col-md-6">
@@ -94,6 +98,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          <script src="js/scripts.js"></script>
     </body>
-    <script src="js/scripts.js"></script>
 </html>
